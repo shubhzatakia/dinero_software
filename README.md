@@ -11,7 +11,6 @@ PHP Version 8
    ```
 
 2. Create a database on your local edit db.php file
-
  ```
     <?php
 class DatabaseConfig {
@@ -34,6 +33,8 @@ class DatabaseConfig {
     
 }
    ```
+
+
 3. Create this table
    ```
    CREATE TABLE candidates (
@@ -52,8 +53,8 @@ class DatabaseConfig {
     training VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
     refer VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NUL
 );
+   ```
 
-  ```
 4. Create Stored Procedures
 
 ```
